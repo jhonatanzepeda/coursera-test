@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .toggle {
     text-align: center;
 }
@@ -11,18 +14,26 @@
 .background-color {
     background-color: rgb(200, 200, 200);
     padding: 20px 30px;
-    margin:0px 0px 20px 0px;
     min-height: 500px;
+    border: 15px solid #fffdfd;
+  /* border-radius: 8px; */
+    margin-bottom: 20px;
 }
 .row {
     padding:0px 30px;
+}
+.row > div {
+  margin-bottom: 30px; /* Adds space BELOW each column */
+}
+@media (min-width: 992px) { /* md breakpoint */
+
 }
 @media (max-width: 767px) {
   
 }
 @media (max-width: 479px) {
  .row {
-    padding:0px 60px;
+    padding:0px 40px;
   }
 }
 .navbar-brand {
