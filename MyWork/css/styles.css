@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 .background-color {
-    background-color: #acacac;
+    background-color: rgb(200, 200, 200);
     padding: 20px 30px;
     margin:0px 0px 20px 0px;
     min-height: 500px;
